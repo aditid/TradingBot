@@ -1,0 +1,49 @@
+st login: Sat Feb  3 16:44:40 on ttys000
+AditiDasss-MacBook-Pro:TradingBot aditi$ cd Desktop/TradingBot
+-bash: cd: Desktop/TradingBot: No such file or directory
+AditiDasss-MacBook-Pro:TradingBot aditi$ cd
+AditiDasss-MacBook-Pro:~ aditi$ cd Desktop/TradingBot
+AditiDasss-MacBook-Pro:TradingBot aditi$ ls
+API.cs			Run.cs			packages
+Algorithm.cs		TradingBot.csproj	packages.config
+Globals.cs		TradingBot.sln		readMe.txt
+Helper.cs		TradingBot.userprefs	testTimer.cs
+Models.cs		bin
+README.md		obj
+AditiDasss-MacBook-Pro:TradingBot aditi$ ls -a
+.			Helper.cs		bin
+..			Models.cs		obj
+.git			README.md		packages
+.gitignore		Run.cs			packages.config
+API.cs			TradingBot.csproj	readMe.txt
+Algorithm.cs		TradingBot.sln		testTimer.cs
+Globals.cs		TradingBot.userprefs
+AditiDasss-MacBook-Pro:TradingBot aditi$ vim .gitignore
+
+
+
+#Xamarin stuff
+Components
+[Pp]ackages
+*.userprefs
+Resource.designer.cs
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+*_i.c
+*_p.c
+".gitignore" 49L, 398C
+
